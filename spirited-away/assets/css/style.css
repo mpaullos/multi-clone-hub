@@ -2,3 +2,43 @@
 /* AndadaPro */
 /* Archivo */
 /* Roboto */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/background.png");
+  background-size: 100% auto;
+}
+
+h1 {
+  font-family: "Andada Pro", monospace !important;
+  font-weight: 800 !important;
+  font-size: 64px !important;
+  color: #fff !important;
+  line-height: 70.74px !important;
+}
+
+h4 {
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  color: #fff !important;
+  line-height: 27.24px !important;
+}
+
+p {
+  font-family: "Archivo";
+  color: #fff;
+}
+
+button {
+  font-family: "Roboto" !important;
+  text-transform: uppercase !important;
+}
+
+.btn-movie {
+  background-color: #f1a5b1 !important;
+}
+
+.btn-trailer {
+  border-color: #f1a5b1 !important;
+}
