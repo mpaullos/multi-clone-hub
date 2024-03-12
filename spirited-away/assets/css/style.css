@@ -74,30 +74,77 @@ button {
 @media (max-width: 767px) {
   body {
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
   }
-  .ghosts {
-    position: absolute;
-    top: 20px;
-  }
 
-  .ghost-left {
-    width: 300px;
-    height: 300px;
+  .container {
+    min-height: 100vh;
+    height: 100%;
+    overflow-x: hidden;
   }
-
-  .ghost-right {
-    width: 300px;
-    height: 300px;
+  .left-div button {
+    margin-left: 0 !important;
+  }
+  .left-div h4 {
+    font-size: 1rem !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+  .left-div h1 {
+    font-size: 2rem !important;
+    margin-left: 0 !important;
+  }
+  .left-div p {
+    padding: 0 !important;
+    margin-left: 0 !important;
+    font-size: 1rem !important;
+    margin-right: 0 !important;
   }
 
   .logo {
-    position: absolute;
-    top: 110px;
+    position: fixed;
+    top: 20px;
+    left: 47%;
+    transform: translateX(-50%);
+    height: 50px;
   }
 
-  .left-div h1 {
-    text-align: left;
+  .ghosts {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    margin: 80px auto 20px;
+  }
+
+  .ghost-left {
+    position: relative;
+    width: 100%;
+    max-width: 200%;
+    height: auto;
+    margin: 0 auto 20px;
+    left: 60px;
+  }
+
+  .ghost-right {
+    position: relative;
+    width: 100%;
+    max-width: 200%;
+    height: auto;
+    margin: 0 auto 20px;
+    left: 100px;
+  }
+
+  .btn-movie,
+  .btn-trailer {
+    width: 100%;
+    max-width: 100%;
+    padding: 0.8rem 1.5rem !important;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .btn-trailer {
+    margin-left: 24px;
   }
 }
