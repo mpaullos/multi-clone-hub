@@ -21,6 +21,16 @@ p {
   font-family: "Archivo";
 }
 
+.btn-movie a {
+  text-decoration: none !important;
+  color: #212529 !important;
+}
+
+.btn-trailer a {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+
 button {
   font-family: "Roboto" !important;
 }
@@ -28,9 +38,17 @@ button {
 .btn-movie {
   background-color: #f1a5b1 !important;
 }
+.btn-movie:hover {
+  background-color: #f76767 !important;
+  color: #fff !important;
+}
 
 .btn-trailer {
   border-color: #f1a5b1 !important;
+}
+
+.btn-trailer:hover {
+  background-color: #f76767 !important;
 }
 
 .ghost-left {
